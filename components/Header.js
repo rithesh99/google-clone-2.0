@@ -60,7 +60,6 @@ function Header() {
           <button hidden type='submit' onClick={search}></button>
         </form>
         <Avatar 
-        className='ml-auto'
         url="https://lh3.googleusercontent.com/ogw/ADea4I6WUr_Lsp1M9D4ciVMOzokRbvy7EMCmEbqngz7V=s32-c-mo"/>
       </div>
       <HeaderOptions/>
