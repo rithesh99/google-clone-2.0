@@ -10,7 +10,7 @@ function SearchResults({ results }) {
                     <div key={i} className="max-w-xl mb-8">
                         <div className="group">
                             <a href={result.link}
-                            className="text-sml">
+                            className="text-sml line-clamp-1">
                                 {result.formattedUrl}
                                 </a>
                                 <a href={result.link}>

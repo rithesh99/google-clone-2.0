@@ -41,7 +41,7 @@ export default function Home() {
         </div>
       </header>
 
-      <form className="flex flex-col items-center mt-20 flex-grow w-4/5">
+      <form onSubmit={search} className="flex flex-col items-center mt-20 flex-grow w-4/5">
         <Image
         src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         alt=""
